@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Intresseanmälan - Hyra Studio</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: #E68F20;">Intresseanmälan - Hyra Studio</h1>
+        <form id="contactForm">
+            <label for="firstName" style="color: #868686;">Förnamn:</label>
+            <input type="text" id="firstName" name="firstName" required><br><br>
+            
+            <label for="lastName" style="color: #868686;">Efternamn:</label>
+            <input type="text" id="lastName" name="lastName" required><br><br>
+            
+            <label for="email" style="color: #868686;">Mailadress:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="address" style="color: #868686;">Postadress:</label>
+            <input type="text" id="address" name="address" required><br><br>
+            
+            <label for="comments" style="color: #868686;">Övriga önskemål eller frågor:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea><br><br>
+            
+            <button type="submit">Skicka</button>
+        </form>
+        <div id="thankYouMessage" style="color: #868686; display: none;">
+            Tack så mycket för att du visat intresse för att boka vår studio! Vi är glada över att du överväger att använda vårt utrymme för ditt kreativa projekt eller evenemang. Vi kommer att kontakta dig inom kort.
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
